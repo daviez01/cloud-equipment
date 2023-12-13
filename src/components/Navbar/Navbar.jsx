@@ -1,16 +1,16 @@
-import React from 'react'
+import './Navbar.scss'
 import logo from '../../Asset/Logo 1.png'
 import Buttons from '../Button/Button'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className='navbar'>
       <img src={logo} alt="" />
-      <div>
+      <div className='right'>
         <div className='links'>
-            <a href=""></a>
-            <a href=""></a>
-            <a href=""></a>
+            <a href="">Product</a>
+            <a href="">Company</a>
+            <a href="">Resources</a>
         </div>
         <div className="login">
             <a href="">Login</a>

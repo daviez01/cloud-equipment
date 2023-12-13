@@ -1,0 +1,48 @@
+.uiBlock {
+    margin: 0 auto;
+    width: 1100px;
+    .top {
+        display: flex;
+        gap: 250px;
+
+        .left {
+            width: 450px;
+            height: 334px;
+
+            img {
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .right {
+            width: 651px;
+            height: 189px;
+
+            h1 {
+                font-family: Playfair Display;
+                font-size: 54px;
+                font-weight: 600;
+                line-height: 60px;
+                letter-spacing: -0.015em;
+                text-align: left;
+                margin: 0;
+            }
+
+            p {
+                font-family: Manrope;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 35px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #061C3D;
+
+            }
+        }
+    }
+    .bottom {
+        display: flex;
+        gap: 20px;
+    }
+}

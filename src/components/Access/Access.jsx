@@ -1,4 +1,4 @@
-import React from 'react'
+import './Access.scss'
 import check from '../../Asset/check.png'
 import doctor from '../../Asset/doctor 1 (1).png'
 import Buttons from '../Button/Button'

@@ -1,0 +1,15 @@
+.footer {
+    .details{
+        display: flex;
+        flex-direction: row-reverse;
+        
+        .right {
+            display: flex;
+        }
+        .left {
+            .contact {
+                display: flex;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.featureCard {
+        width: 312px;
+        height: 286px;
+        padding: 24px;
+        border-radius: 16px;
+        box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+
+        p {
+            //styleName: Body/Smalls/400;
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            text-decoration: none;
+            color: #54D4BD;
+        }
+}

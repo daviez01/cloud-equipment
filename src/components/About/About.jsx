@@ -1,4 +1,4 @@
-import React from 'react'
+import './About.scss'
 import medlab from '../../Asset/med lab.png'
 import Arrow from '../../Asset/Arrow 4.png'
 

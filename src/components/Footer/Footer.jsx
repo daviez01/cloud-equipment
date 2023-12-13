@@ -1,4 +1,4 @@
-import React from 'react'
+import './Footer.scss'
 import client1 from '../../Asset/Real Estate Logo.png'
 import client2 from '../../Asset/Real Estate Logo (1).png'
 import client3 from '../../Asset/Real Estate Logo (2).png'
@@ -20,7 +20,7 @@ const Footer = () => {
         <img src={client1} alt="" />
         <img src={client2} alt="" />
       </div>
-      <div>
+      <div className='details'>
         <div className="right">
             <div>
                 <h3>Company</h3>
@@ -56,7 +56,7 @@ const Footer = () => {
                 <img src={logo} alt="" />
                 <p>We are always open to discuss your project and improve your online presence.</p>
             </div>
-            <div>
+            <div className='contact'>
                 <div className="email">
                     <h3>Email me at</h3>
                     <p>contact@website.com</p>

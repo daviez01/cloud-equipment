@@ -1,3 +1,4 @@
+import './Invest.scss'
 import React from 'react'
 import medicaldoctor from '../../Asset/medical-doctor.png'
 import Buttons from '../Button/Button'

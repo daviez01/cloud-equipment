@@ -1,0 +1,58 @@
+.header {
+    background-image: url('../../Asset/Image.png');
+    background-size: cover;
+    padding: 0 150px;
+    height: 110vh;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 70px;
+
+    .hero {
+        width: 500px;
+        height: 24px;
+        text-align: left;
+        padding-top: 180px;
+
+        .p1 {
+            color: #70FFE5;
+            line-height: 24px;
+            font-weight: 700;
+            font-size: 14px;
+            letter-spacing: 0.5em;
+            width: 500px;
+            height: 24px;
+            margin: 10px 0;
+            
+        }
+
+        h1 {
+            font-family: Roboto;
+            font-size: 64px;
+            font-weight: 500;
+            line-height: 72px;
+            letter-spacing: 0em;
+            width: 688px;
+            height: 216px;
+            margin: 0;
+        }
+
+        .p2 {
+            font-family: Manrope;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 35px;
+            letter-spacing: 0em;
+            width: 490px;
+            height: 140px;
+        }
+
+        .btn-group {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 24px;
+        }
+    }
+}
+

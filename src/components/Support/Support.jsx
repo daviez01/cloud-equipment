@@ -1,3 +1,4 @@
+import './Support.scss'
 import React from 'react'
 import supportImage from '../../Asset/Col.png'
 import Buttons from '../Button/Button'

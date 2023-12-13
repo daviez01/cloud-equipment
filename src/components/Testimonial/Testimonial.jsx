@@ -1,4 +1,4 @@
-import React from 'react'
+import './Testimonial.scss'
 import arrow from '../../Asset/Arrow 4.png'
 import quotes from '../../Asset/left-quote 1.png'
 import line from '../../Asset/Line 6.png'

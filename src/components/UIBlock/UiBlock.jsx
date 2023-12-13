@@ -1,3 +1,4 @@
+import './UiBlock.scss'
 import React from 'react'
 import FeatureCard from '../FeatureCard/FeatureCard'
 import Uiblock from '../../Asset/ui block icon.png'
@@ -24,7 +25,7 @@ const UiBlock = () => {
         <FeatureCard image={icon2} title="CE Invest" content="Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna."/>
         <FeatureCard image={icon3} title="CE ConnectEHR" content="Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna."/>
         <FeatureCard image={icon4} title="CE Marketplace" content="Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna."/>
-        <FeatureCard image={icon5} title="CE Flow" content=""/>
+        <FeatureCard image={icon5} title="CE Flow" content="Donec mi lorem, consequat a quam nec, pellentesque pulvinar sem. Morbi lacus magna."/>
       </div>
     </div>
   )
