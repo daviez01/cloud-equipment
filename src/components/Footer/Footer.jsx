@@ -25,7 +25,7 @@ const Footer = () => {
       <div className='details'>
         <div className="details-cont">
             <div className="right">
-                <div>
+                <div className='right-links'>
                     <h3>Company</h3>
                     <ul>
                         <li><a href="">Our Story</a></li>
@@ -35,7 +35,7 @@ const Footer = () => {
                         <li><a href="">Press</a></li>
                     </ul>
                 </div>
-                <div>
+                <div className='right-links'>
                     <h3>legal</h3>
                     <ul>
                         <li><a href="">Legal</a></li>
@@ -44,7 +44,7 @@ const Footer = () => {
                         <li><a href="">Disclaimer</a></li>
                     </ul>
                 </div>
-                <div>
+                <div className='right-links'>
                     <h3>Resources</h3>
                     <ul>
                         <li><a href="">For Investors</a></li>
@@ -60,17 +60,17 @@ const Footer = () => {
                     <p>We are always open to discuss your project and improve your online presence.</p>
                 </div>
                 <div className='contact'>
-                    <div className="email">
+                    <div className="email sub">
                         <h3>Email me at</h3>
                         <p>contact@website.com</p>
                     </div>
-                    <div className="call">
+                    <div className="call sub">
                         <h3>Call us</h3>
                         <p>0927 6277 28525</p>
                     </div>
-                    <div className="social">
+                    <div className="social sub">
                         <h3>Social Media</h3>
-                        <div>
+                        <div className='icons'>
                             <img src={facebook} alt="" />
                             <img src={twitter} alt="" />
                             <img src={instagram} alt="" />
