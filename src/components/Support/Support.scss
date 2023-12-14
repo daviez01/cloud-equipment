@@ -1,3 +1,44 @@
 .support {
     display: flex;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+    .left {
+        width: 550px;
+        
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    .right {
+        h1 {
+            font-family: Playfair Display;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                margin: 0;
+                padding: 0;
+            }
+        }
+
+        .green {
+            color: #54D4BD;
+        }
+
+        .button-group {
+            display: flex;
+            gap: 20px;
+        }
+    }
 }

@@ -1,8 +1,39 @@
 .navbar {
     display: flex;
+    width: 1200px;
+    margin: auto;
     justify-content: space-between;
+    color: #000;
 
     .right {
         display: flex;
+        gap: 20px;
+        align-items: center;
+        width: 60%;
+        justify-content: space-between;
+        
+        .links {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+            justify-content: space-between;
+            width: 300px;
+
+            .green {
+                color: #54D4BD;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        .login {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
     }
 }

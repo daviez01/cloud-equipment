@@ -11,7 +11,8 @@ const Support = () => {
             <img src={supportImage} alt="" />
         </div>
         <div className="right">
-            <h1>Cloud Equipment Support</h1>
+            <h1>Cloud Equipment</h1>
+            <h1 className='green'>Support</h1>
             <p>Other VAS including maintenance, insurance, repair, marketing/branding etc</p>
             <ul>
                 <li> <img src={check} alt="" />Lorem ipsum dolor sit amet consectetur!</li>
@@ -19,7 +20,7 @@ const Support = () => {
                 <li> <img src={check} alt="" />orem ipsum dolor sit amet conse!</li>
             </ul>
             <div className="button-group">
-                <Buttons text="Get Started" />
+                <Buttons text="Get Started" color="#54D4BD" />      
                 <Buttons text="Know More" />
             </div>
         </div>     

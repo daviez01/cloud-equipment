@@ -9,12 +9,12 @@ const Navbar = () => {
       <div className='right'>
         <div className='links'>
             <a href="">Product</a>
-            <a href="">Company</a>
+            <a href="" className='green'>Company</a>
             <a href="">Resources</a>
         </div>
         <div className="login">
-            <a href="">Login</a>
-            <Buttons text="Become an Investor" />
+            <a href="">Login</a> 
+            <Buttons text="Become an Investor" width="200px" height="40px" color="#54D4BD"/>
         </div>
       </div>
     </div>
