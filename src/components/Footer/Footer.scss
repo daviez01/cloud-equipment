@@ -1,6 +1,7 @@
 .footer {
     width: 100%;
     margin: 200px auto;
+    margin-bottom: 0;
     .clients{
         background-color: #F5F5F5;
         width: 100%;
@@ -94,5 +95,52 @@
                 }
             }
         }
+    }
+
+    .footer-links {
+        display: flex;
+        justify-content: space-between;
+        width: 1500px;
+        margin: auto;
+        color: #40484F;
+
+        .left{
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+
+        .right {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            justify-content: space-between;
+
+            a {
+                text-decoration: none;
+                color: #40484F;
+                font-family: Nunito Sans;
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 28px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+        }
+    }
+
+    .disclaimer {
+        font-family: poppins;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #40484F;
+        padding: 50px;
     }
 }

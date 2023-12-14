@@ -82,17 +82,26 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-links">
-        <div>
+        <div className='left'>
             <p>CloudEquipment.com © Copyright 2023</p>
         </div>
-        <div>
+        <div className='right'>
             <a href="">Product</a>
             <a href="">Company</a>
             <a href="">resources</a>
         </div>
       </div>
       <div className="disclaimer">
-        <p>DISCLAIMER: Cloud Equipment Medical software and technology web platform is licensed and used by investors and health care facilities to make available to investors information related to sponsors’ medical equipment investment offerings (the “Platform”). This website is part of the Platform and is operated by Reef Financial Solutions. By accessing this site and any pages thereof, you agree to be bound by our Terms of Service and Privacy Policy . *All information contained on CloudEquipment Medical or in any advertisement linking to, CloudEquipment Medical concerning any prospective or actual real estate investment, including information concerning projected or targeted returns and investment performance, is provided by the relevant sponsor and/or issuer (or their affiliates) of the relevant real estate investment opportunity and not by Cloud Equipment Medical and is subject to change. Such information is subject to the disclosures herein and on the Disclosures page, on the Disclaimers page for such real estate investment opportunity and is qualified in its entirety by the more comprehensive information provided in the relevant sponsor and/or issuer’s offering documentation. Unless affirmatively and specifically stated to the contrary, CloudEquipment Medical and its affiliates make no representations or warranties as to the accuracy of an issuer’s information, including in advertisements, and accepts no liability therefor. Nothing on this website should be regarded as investment advice, either on behalf of a particular security or regarding an overall investment strategy, a recommendation, an offer to sell, or a solicitation of or an offer to buy any security. Advice from a securities professional is strongly advised, and we recommend that you consult with a financial advisor, attorney, accountant, and any other professional that can help you to understand and assess the risks associated with any real estate investment. Please carefully review all disclosures here before accessing CloudEquipment Medical.</p>
+        <p>Cloud Equipment Medical software and technology web platform is licensed and used by investors and health care facilities to make available to investors information related to sponsors’ medical equipment investment offerings (the “Platform”). This website is part of the Platform and is operated by Reef Financial Solutions. By accessing this site and any pages thereof, you agree to be bound by our Terms of Service and Privacy Policy . 
+        <br />
+        <br />
+         *All information contained on CloudEquipment Medical or in any advertisement linking to, CloudEquipment Medical concerning any prospective or actual real estate investment, including information concerning projected or targeted returns and investment performance, is provided by the relevant sponsor and/or issuer (or their affiliates) of the relevant real estate investment opportunity and not by Cloud Equipment Medical and is subject to change. Such information is subject to the disclosures herein and on the Disclosures page, on the Disclaimers page for such real estate investment opportunity and is qualified in its entirety by the more comprehensive information provided in the relevant sponsor and/or issuer’s offering documentation. Unless affirmatively and specifically stated to the contrary, CloudEquipment Medical and its affiliates make no representations or warranties as to the accuracy of an issuer’s information, including in advertisements, and accepts no liability therefor. 
+        <br />
+        <br />
+        Nothing on this website should be regarded as investment advice, either on behalf of a particular security or regarding an overall investment strategy, a recommendation, an offer to sell, or a solicitation of or an offer to buy any security. Advice from a securities professional is strongly advised, and we recommend that you consult with a financial advisor, attorney, accountant, and any other professional that can help you to understand and assess the risks associated with any real estate investment. 
+        <br />
+        <br />
+        Please carefully review all disclosures here before accessing CloudEquipment Medical.</p>
       </div>
     </div>
   )
