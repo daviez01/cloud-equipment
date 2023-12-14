@@ -1,4 +1,5 @@
 .testimonial {
+    margin-bottom: 100px;
     .testy {
         width: 500px;
         text-align: center;
@@ -14,6 +15,10 @@
             };
         }
     }
+
+    .line {
+        text-align: center;
+    }
     .directors {
         display: flex;
         justify-content: space-between;
@@ -22,6 +27,23 @@
 
         .director {
             display: flex;
+            align-items: center;
+            width: 300px;
+            gap: 8px;
+
+            img {
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+            }
+
+            h3 {
+                margin: 0;
+            }
+
+            p {
+                margin: 0;
+            }
         }
     }
 }

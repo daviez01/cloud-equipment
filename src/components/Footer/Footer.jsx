@@ -14,64 +14,68 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className="clients">
-        <img src={client5} alt="" />
-        <img src={client4} alt="" />
-        <img src={client3} alt="" />
-        <img src={client1} alt="" />
-        <img src={client2} alt="" />
+        <div className="container">
+            <img src={client5} alt="" />
+            <img src={client4} alt="" />
+            <img src={client3} alt="" />
+            <img src={client1} alt="" />
+            <img src={client2} alt="" />
+        </div>
       </div>
       <div className='details'>
-        <div className="right">
-            <div>
-                <h3>Company</h3>
-                <ul>
-                    <li><a href="">Our Story</a></li>
-                    <li><a href="">Careers</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Press</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>legal</h3>
-                <ul>
-                    <li><a href="">Legal</a></li>
-                    <li><a href="">Terms & Conditions</a></li>
-                    <li><a href="">Privacy Policy</a></li>
-                    <li><a href="">Disclaimer</a></li>
-                </ul>
-            </div>
-            <div>
-                <h3>Resources</h3>
-                <ul>
-                    <li><a href="">For Investors</a></li>
-                    <li><a href="">For OEMs & Suppliers</a></li>
-                    <li><a href=" ">For Healthcare Providers</a></li>
-                    <li><a href="">Others</a></li>
-                </ul>
-            </div>
-        </div>
-        <div className="left">
-            <div>
-                <img src={logo} alt="" />
-                <p>We are always open to discuss your project and improve your online presence.</p>
-            </div>
-            <div className='contact'>
-                <div className="email">
-                    <h3>Email me at</h3>
-                    <p>contact@website.com</p>
+        <div className="details-cont">
+            <div className="right">
+                <div>
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="">Our Story</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Community</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Press</a></li>
+                    </ul>
                 </div>
-                <div className="call">
-                    <h3>Call us</h3>
-                    <p>0927 6277 28525</p>
+                <div>
+                    <h3>legal</h3>
+                    <ul>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Disclaimer</a></li>
+                    </ul>
                 </div>
-                <div className="social">
-                    <h3>Social Media</h3>
-                    <div>
-                        <img src={facebook} alt="" />
-                        <img src={twitter} alt="" />
-                        <img src={instagram} alt="" />
-                        <img src={linkedin} alt="" />
+                <div>
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="">For Investors</a></li>
+                        <li><a href="">For OEMs & Suppliers</a></li>
+                        <li><a href=" ">For Healthcare Providers</a></li>
+                        <li><a href="">Others</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div className="left">
+                <div>
+                    <img src={logo} alt="" />
+                    <p>We are always open to discuss your project and improve your online presence.</p>
+                </div>
+                <div className='contact'>
+                    <div className="email">
+                        <h3>Email me at</h3>
+                        <p>contact@website.com</p>
+                    </div>
+                    <div className="call">
+                        <h3>Call us</h3>
+                        <p>0927 6277 28525</p>
+                    </div>
+                    <div className="social">
+                        <h3>Social Media</h3>
+                        <div>
+                            <img src={facebook} alt="" />
+                            <img src={twitter} alt="" />
+                            <img src={instagram} alt="" />
+                            <img src={linkedin} alt="" />
+                        </div>
                     </div>
                 </div>
             </div>

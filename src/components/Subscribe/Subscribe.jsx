@@ -1,4 +1,5 @@
-import React from 'react'
+import './Subscribe.scss'
+import SpinningGeo from '../../Asset/Spinning Geometric Shapes.png'
 import Buttons from '../Button/Button'
 
 const Subscribe = () => {
@@ -11,8 +12,11 @@ const Subscribe = () => {
         </div>
         <div className="form">
             <input type="text" placeholder='Your email address' />
-            <Buttons text="Subscribe" />
+            <Buttons text="Subscribe" color="#54D4BD" />
         </div>
+      </div>
+      <div className="spinner">
+        <img src={SpinningGeo} alt="" />
       </div>
     </div>
   )
